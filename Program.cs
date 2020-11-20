@@ -10,8 +10,8 @@ namespace Tabuada
                 Console.Write($"Tabuada do Numero Sete ");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write($" Digite 7\n");
-                Console.ReadLine().ToUpper();
-                Console.ResetColor();
+                Console.ReadLine();
+               
             
                
                Console.Write($"7 X 0 = 0\n");
@@ -25,6 +25,7 @@ namespace Tabuada
                Console.Write("7 X 8 = 56\n");
                Console.Write("7 X 9 = 63\n");
                Console.Write("7 X 10 = 70\n");
+               Console.ResetColor();
 
 
         }
